@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install oh-my-zsh
-sh -c "$(wget https://gitlab.com/varaki/oh-my-zsh-installer/-/raw/master/install_oh_my_zsh.sh -O -) --unattended"
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -) --unattended"
 
 # Clone plugins
 mkdir -p $HOME/.oh-my-zsh/custom/{plugins,themes}
