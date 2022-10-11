@@ -9,4 +9,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.oh-my-zsh/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 # Install custom theme
-wget "https://gitlab.com/varaki/bubblified-varaki.zsh-theme/-/raw/master/bubblified-varaki.zsh-theme" -O - > $HOME/.oh-my-zsh/custom/themes/bubblified-varaki.zsh-theme
+wget "https://raw.githubusercontent.com/varaki/bubblified-varaki.zsh-theme/master/bubblified-varaki.zsh-theme" -O - > $HOME/.oh-my-zsh/custom/themes/bubblified-varaki.zsh-theme
